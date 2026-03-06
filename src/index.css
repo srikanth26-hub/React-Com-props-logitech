@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+#right::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+
+}
+#banner2scr::-webkit-scrollbar {
+  display: none;
+
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Logitech Red Circle Background -->
+  <circle cx="100" cy="100" r="95" fill="#E9323B"/>
+  
+  <!-- White Letter L -->
+  <g transform="translate(50, 50)">
+    <rect x="0" y="0" width="25" height="100" fill="white" rx="2"/>
+    <rect x="0" y="75" width="50" height="25" fill="white" rx="2"/>
+  </g>
+</svg>
