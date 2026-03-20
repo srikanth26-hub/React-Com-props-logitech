@@ -6,16 +6,17 @@ import Section4 from './components/page5/Section4'
 import Footer from './components/page4/Footer'
 
 const App = () => {
-  const [isLoading, setIsLoading] = useState(true)
+  // localStorage.setItem("username", "srikanth")
+  // const [isLoading, setIsLoading] = useState(true)
 
-  useEffect(() => {
-    // Simulate a loading time
-    const timer = setTimeout(() => {
-      setIsLoading(false)
-    }, 1500)
+  // useEffect(() => {
+  //   // Simulate a loading time
+  //   const timer = setTimeout(() => {
+  //     setIsLoading(false)
+  //   }, 900)
 
-    return () => clearTimeout(timer)
-  }, [])
+  //   return () => clearTimeout(timer)
+  // }, [])
 
   const user = [
     { img: "https://images.unsplash.com/photo-1722682811175-5df0b444d659?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", tag1: "Top Gaming Recommended", tag2: "Exclusive Product" },
@@ -62,17 +63,17 @@ const App = () => {
     }
   ]
 
-  if (isLoading) {
-    return (
-      <div className="flex h-screen w-full items-center justify-center bg-transparent">
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/1/17/Logitech_logo.svg"
-          alt="Logitech Logo"
-          className="h-16 w-auto animate-bounce"
-        />
-      </div>
-    )
-  }
+  // if (isLoading) {
+  //   return (
+  //     <div className="flex h-screen w-full items-center justify-center bg-transparent">
+  //       <img
+  //         src="https://upload.wikimedia.org/wikipedia/commons/1/17/Logitech_logo.svg"
+  //         alt="Logitech Logo"
+  //         className="h-16 w-auto animate-ping"
+  //       />
+  //     </div>
+  //   )
+  // }
 
   return (
     <>
@@ -80,7 +81,7 @@ const App = () => {
       <Section2 />
       <Section3 />
       <Section4 />
-      <Footer />  
+      <Footer />
     </>
   )
 }

@@ -1,11 +1,14 @@
 {
   "name": "test-react",
+  "homepage": "https://srikanth26-hub.github.io/React-Com-props-logitech",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -14,6 +17,7 @@
     "lucide": "^0.575.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-router-dom": "^7.13.1",
     "remixicon": "^4.9.1",
     "tailwindcss": "^4.2.1"
   },
