@@ -14,3 +14,31 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project. -->
+# React Landing Page
+
+This project is a modern landing page built using **React**. The application demonstrates the use of **component-based architecture** and **props** to create reusable and dynamic UI sections.
+
+## Features
+
+* Built using **React**
+* Reusable **components**
+* Dynamic content using **props**
+* Clean and modern **UI design**
+* Organized project structure
+
+## Technologies Used
+
+* React
+* JavaScript
+* HTML
+* CSS / Tailwind CSS
+* Vite
+
+## Project Structure
+
+The application is divided into multiple components such as:
+
+* Navbar
+* Hero Section
+* Feature Section
+* Cards Section
